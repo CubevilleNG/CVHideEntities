@@ -1,0 +1,16 @@
+name: CVHideEntities
+main: org.cubeville.cvhideentities.CVHideEntities
+author: ToeMan_
+version: 1.18
+api-version: 1.18
+depend: []
+
+commands:
+  cvhideentities:
+    aliases: hideentities
+    permission: cvhideentities.admin
+
+permissions:
+  cvhideentities.admin:
+    description: Gives player access to every cvhideentities command
+    default: op
